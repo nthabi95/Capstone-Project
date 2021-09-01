@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+:host-context(.theme-light)h1{
+    background-color: hotpink;
+};
+
+.Online{background-color: lawngreen;}
+div{color: lightcoral;}
+.name{background-color: lightgray;}
+
+a{color: aqua;}

@@ -1,0 +1,17 @@
+<h3>User Login</h3>
+<form>
+    <div class="mb-3">
+        <label for="username" class="form-label">Userame</label>
+        <input type="text" class="form-control" name="username" placeholder="Enter Username"
+            [(ngModel)]="user.username">
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" name="password" placeholder="Enter Password"
+            [(ngModel)]="user.password">
+    </div>
+    <div class="mb-3">
+        <input type="submit" value="Login" class="btn btn-outline-success" (click)="login()" /> &nbsp;
+        <input type="reset" value="Clear Fields" class="btn btn-outline-danger" />
+    </div>
+</form>

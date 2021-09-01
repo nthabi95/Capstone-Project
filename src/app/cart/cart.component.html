@@ -1,0 +1,37 @@
+<h3>Cart Details</h3>
+<br />
+<table class="table table-stripped">
+    <thead>
+        <tr>
+            
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Product Quantity</th>
+            <th>Product Price</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cart of cartItems">
+           
+            <td>{{ cart.id }}</td>
+            <td>{{ cart.name }}</td>
+            <td>{{ cart.quantity }}</td>
+            <td>{{ cart.price}}</td>
+            <td>
+                <button (click)= "removeCartItem(cart.id)" class ="btn btn-outline-danger">Remove</button>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">
+                <a routerLink ='/products' class ="btn btn-outline-secondary">Explore more products</a> &nbsp;
+                <button class ="btn btn-outline-secondary" (click) = "cartEmpty()">Clear Cart</button> &nbsp;
+                <a routerLink ='/checkout' class ="btn btn-outline-secondary"> Checkout </a>
+
+            </td>
+            
+        </tr>
+    </tfoot>
+</table>

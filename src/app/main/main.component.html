@@ -1,0 +1,43 @@
+<h1>Online Fashion Store</h1>
+
+
+<nav  class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="nav-link" routerLink='products'>Fashion</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-8 mb-lg-8">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLink='home'>About</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink='products'>Products</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink='cart'>Cart</a>
+                    
+                </li>
+            </ul>
+            <form class="d-flex">
+                <div *ngIf="!loginStatus()">
+                    <a routerLink='login' class="btn btn-outline-success">Login</a> &nbsp;
+                    <a routerLink='register' class="btn btn-outline-success">Register</a> &nbsp;
+                </div>
+                <div *ngIf="loginStatus()">
+                    <button class="btn btn-outline-danger" type="button" (click)="logout()">Logout</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="p-5 mb-4 rounded-3">
+    <div class="container-fluid py-3">
+        <router-outlet></router-outlet>
+    </div>
+</div>

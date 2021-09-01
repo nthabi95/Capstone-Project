@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": 1001,
+      "name": "King Kochhar",
+      "email": "king.kochhar@gmail.com",
+      "type": "User",
+      "username": "king",
+      "password": "123456"
+    },
+    {
+      "id": 1002,
+      "name": "Kartik Sharma",
+      "email": "kartik@gmail.com",
+      "type": "Admin",
+      "username": "kartik",
+      "password": "123456"
+    },
+    {
+      "id": 1003,
+      "name": "Nthabiseng",
+      "email": "Nthabi@gmail.com",
+      "type": "User",
+      "username": "Nthabi95",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "id": 5001,
+      "name": "Dress",
+      "price": 60,
+      "quantity": 2,
+    "image": "https://i.pinimg.com/originals/db/20/77/db2077b04caca133cc6813b0dcfb36c8.jpg"},
+    {
+      "id": 5002,
+      "name": "Formal Shoes",
+      "price": 149,
+      "quantity": 5,
+      "image": "https://www.florsheim.co.za/shop/resources/images/index/Container5-min.jpg"
+    },
+    {
+      "id": 5003,
+      "name": "Jeans",
+      "price": 250,
+      "quantity": 6,
+      "image": "https://www.realmenrealstyle.com/wp-content/uploads/2021/07/mens-jeans.jpg"
+    },
+    {
+      "id": 5004,
+      "name": "Men-shirts",
+      "price": 180,
+      "quantity": 2,
+      "image": "https://5.imimg.com/data5/YU/MT/NS/SELLER-3664875/mens-shirts-500x500.jpg"
+    },
+    {
+      "id": 5005,
+      "name": "Heels",
+      "price": 220,
+      "quantity": 5,
+      "image": "https://i1.wp.com/ae01.alicdn.com/kf/H522b785318dd4d2c85bea97205194c93S/sexy-rhinestone-platform-heels-shoes-pumps-high-heels-women-shoes-ladies-wedding-shoes-bridal-shoes-black.jpg?strip=all&quality=70"},
+    {
+      "id": 5006,
+      "name": "Coats",
+      "price": 150,
+      "quantity": 6,
+      "image": "https://i.pinimg.com/originals/b0/ca/3d/b0ca3d9f081db1b2ea16f0bb25b3395e.jpg"},
+      {
+        "id": 5007,
+        "name": "Bikini",
+        "price": 150,
+        "quantity": 6,
+        "image": "https://i.pinimg.com/474x/9c/ff/c6/9cffc6a4d75873e7bd5a4d2f2fe7a2e1.jpg"},
+        {
+          "id": 5008,
+          "name": "Shorts",
+          "price": 280,
+          "quantity": 6,
+          "image": "https://i.pinimg.com/736x/8e/32/df/8e32df3fba286d5d95362f9fc3bdd68c.jpg"},
+          {
+            "id": 5009,
+            "name": "Bags",
+            "price": 150,
+            "quantity": 6,
+            "image": "https://i.pinimg.com/564x/94/53/88/9453880ba03a07b5ddf14346ff16d1ee.jpg"}
+     
+   
+          
+          
+          
+     
+    
+  ]
+}
